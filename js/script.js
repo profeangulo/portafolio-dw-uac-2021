@@ -9,7 +9,7 @@ $(document).ready(function(){
             $('header figure a').css('margin','10px 0');
             $('header figure a img').css('width','auto');
             $('header figure a img').css('height','80px');
-            $('main').css('margin','100px auto 0 auto');
+            $('main').css('margin','170px auto 0 auto');
         } else {
             $('header').css('height','250px');
             $('header figure').css('height','250px');
