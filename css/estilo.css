@@ -1,0 +1,64 @@
+/* Patrones Globales del CSS */
+
+/* Tipografía Principal */
+h1, h2, h3, a, button { font-family: 'Big Shoulders Display', cursive; }
+
+/* Tipografía Secundaria */
+h4, h5, h6, p, div, form, input, select, option, textarea, span, em, strong { font-family: 'Roboto Condensed', sans-serif; }
+
+/* Fondos Oscuros */
+.fondo-dark { background: #111; }
+
+/* Quitar el Margen por defecto que trae Body */
+body { margin: 0 !important; }
+
+/* Cargar el display: block; a todos los tags de estructura */
+header, main, section, footer, aside, article, nav, figure, figcaption, div { display: block; }
+
+/* Quitar margen por defecto a todas las tags de texto */
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+
+
+
+/* ----------------------------------------------------------------- */
+
+
+/* CSS propio */
+
+/* Componente Menú Móvil */
+aside#menu-burger { display: none; }
+
+
+/* Componente WhatsApp */
+aside#boton-wp { display: none; }
+
+
+
+/* Header */
+header { width: 100%; height: 250px; margin: 0; float: none; position: fixed; top: 0; left: 0; z-index: 99999; transition: all 0.3s ease-in; }
+header figure { width: 1100px; height: 250px; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; }
+header figure a { width: 200px; height: 200px; margin: 25px 0; float: none; position: relative; display: block; transition: all 0.3s ease-in; }
+header figure a img { display: block; width: 100%; height: auto; border-radius: 50%; transition: all 0.3s ease-in; }
+
+
+/* Footer */
+footer {  }
+footer div#ancla-contacto {  }
+footer article {  }
+footer article h6 {  }
+footer article nav {  }
+footer article nav a {  }
+footer article nav a i {  }
+footer article nav a:hover {  }
+footer article nav a:hover i {  }
+
+
+/* Main */
+main { width: 100%; height: auto; margin: 250px auto 0 auto; float: none; position: relative; }
+
+/* Sección Presentación */
+section#presentacion { width: 1100px; height: 200px; margin: 0 auto; float: none; position: relative; }
+section#presentacion div#ancla-presentacion {  }
+section#presentacion article {  }
+section#presentacion article h1 {  }
+section#presentacion article p {  }
