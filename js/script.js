@@ -10,6 +10,8 @@ $(document).ready(function(){
             $('header figure a img').css('width','auto');
             $('header figure a img').css('height','80px');
             $('main').css('margin','170px auto 0 auto');
+
+            $('header').addClass('dark-header');
         } else {
             $('header').css('height','250px');
             $('header figure').css('height','250px');
@@ -18,6 +20,8 @@ $(document).ready(function(){
             $('header figure a img').css('width','100%');
             $('header figure a img').css('height','auto');
             $('main').css('margin','250px auto 0 auto');
+
+            $('header').removeClass('dark-header');
         }
     });
 
