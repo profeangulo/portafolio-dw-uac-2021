@@ -111,14 +111,9 @@ section#portafolio article nav a.img-portafolio:hover img { transform: scale(1.1
     section#portafolio article nav a.img-portafolio { display: block; margin: 14px auto; }
 }
 
+
 /* MQ para Móviles Grandes = Breakpoint 499px */
 @media only screen and (max-width: 499px){
-    header figure { width: 90%; }
-
-    section#presentacion article { width: 90%; }
-
-    section#portafolio article { width: 90%; }
-
     footer article { width: 90%; }
 }
 
