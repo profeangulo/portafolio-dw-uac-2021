@@ -1,5 +1,33 @@
 $(document).ready(function(){
 
+    /* Función para Menú Responsive */
+    $('a#cerrar').hide();
+
+    $('a#abrir').click(function(){
+        $('a#abrir').hide();
+        $('a#cerrar').show();
+        //
+        $('aside#menu-burger').animate({
+            right: 0
+        },1000,'easeOutExpo');
+        //
+        event.preventDefault();
+    });
+
+    $('a#cerrar').click(function(){
+        $('a#abrir').show();
+        $('a#cerrar').hide();
+        //
+        $('aside#menu-burger').animate({
+            right: '-100%'
+        },1000,'easeInExpo');
+        //
+        event.preventDefault();
+    });
+
+
+
+
     /* Función Scroll Down */
     $(window).scroll(function(){
         if ($(this).scrollTop() > 10) {
@@ -24,6 +52,4 @@ $(document).ready(function(){
             $('header').removeClass('dark-header');
         }
     });
-
-
 });
