@@ -27,7 +27,6 @@ $(document).ready(function(){
 
 
 
-
     /* Función Scroll Down */
     $(window).scroll(function(){
         if ($(this).scrollTop() > 10) {
